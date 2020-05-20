@@ -71,6 +71,7 @@
         android:layout_marginLeft="280dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:enabled="false"
         android:text="자동 로그인"
         android:checked="true"/>
 
@@ -84,11 +85,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:visibility="visible">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="일반 사용자/"/>
+            android:text="일반 사용자"/>
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -101,11 +103,38 @@
             android:text="기타"/>
     </RadioGroup>
 
-    <Button
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="로그인"/>
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="버튼들"/>-->
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="회원가입"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="로그인"/>
+
+
+    </LinearLayout>
+
+
 
 
 </LinearLayout>
