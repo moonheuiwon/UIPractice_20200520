@@ -29,22 +29,28 @@
         android:hint="비밀번호를 입력하세요."
         android:inputType="numberPassword"/>
 
-    <TextView
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="아이디로 친구 찾기 : "/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:singleLine="true"-->
+<!--        android:imeOptions="actionSend"-->
+<!--        android:hint="친구의 아이디를 입력하세요."/>-->
+
+<!--    <ImageButton-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:src="@mipmap/ic_launcher"/>-->
+
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아이디로 친구 찾기 : "/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:imeOptions="actionSend"
-        android:hint="친구의 아이디를 입력하세요."/>
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/ic_launcher"
+        android:text="자동 로그인"
+        android:checked="true"/>
 
     <Button
         android:layout_width="match_parent"
